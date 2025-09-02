@@ -5,6 +5,13 @@ body {
     text-align: center;
 }
 
+main p {
+    font-family: Arial;
+    margin: 40px;
+    padding: 8px;
+    text-align: center;
+}
+
 header {
     background-color: #004080;
     color: white;
