@@ -167,3 +167,26 @@ footer {
   margin: 6px 0;
   text-align: center; /* descrição alinhada à esquerda para leitura; remova se preferir centralizar tudo */
 }
+.tema-toggle {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 50px;
+  height: 26px;
+  background: #ddd;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  transition: background 0.25s;
+}
+
+.tema-toggle .bolinha {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  transition: transform 0.25s;
+}
+
